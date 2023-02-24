@@ -1,0 +1,24 @@
+---
+layout: post
+title: CloudFront
+date: '2021-10-21 16:08 +0900'
+description: 'CloudFront란'
+categories: [infra, aws]
+img: cloudfront.svg
+tags: [infra, aws, cloudfront]
+
+---
+
+# CloudFront
+
+### 📌 정의
+
+AWS에서 제공하는 CDN서비스이다.
+
+엣지 로케이션을 여러 개 두고, 가장 가까운 엣지 로케이션에 접근해서 지연시간을 최소화 한다.
+
+### 👍 장점
+
+엣지 로케이션을 활용해서 사용자에게서 가장 가까운 엣지 로케이션에 접근해서 지연시간을 최소화 한다.
+
+캐싱을 활용해서 엣지 로케이션에 있는 정보면 S3에 다시 접근하지 않는다. 따라서 S3의 비용이 줄어든다.
