@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [인프콘]인프런 DevOps 엔지니어의 Terragrunt 도입기
+title: 인프콘 인프런 DevOps 엔지니어의 Terragrunt 도입기
 date: '2022-08-26'
 description: '인프런 DevOps 엔지니어의 Terragrunt 도입기'
 categories: [Lecture, Inflearn]
