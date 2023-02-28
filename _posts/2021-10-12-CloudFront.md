@@ -1,14 +1,11 @@
 ---
 layout: post
 title: CloudFront
-date: '2021-10-21 16:08 +0900'
-description: 'CloudFront란'
-categories: [infra, aws]
-img: cloudfront.svg
-tags: [infra, aws, cloudfront]
-
+date: '2021-10-12'
+description: 'CloudFront'
+categories: [Infra, AWS]
+tags: [AWS, CloudFront]
 ---
-
 # CloudFront
 
 ### 📌 정의
