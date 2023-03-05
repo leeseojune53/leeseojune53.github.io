@@ -22,6 +22,7 @@ Mybatis라고 하면 되게 올드한 느낌이 많이 들었고, JPA, R2DBC는 
 
 아래는 예시 DAO이다.
 
+{% raw %}
 ```java
 @Mapper
 public interface AccountRepository {
@@ -34,30 +35,32 @@ public interface AccountRepository {
 
     class QueryBuilder {
         public String getAccountList() {
-            return new SQL() {%{{
+            return new SQL() {{
                 SELECT("*");
                 FROM("account");
-            }}%}.toString();
+            }}.toString();
         }
       
       	public String getAccountById(String userId) {
-          	return new SQL() {%{{
+          	return new SQL() {{
               	SELECT("*");
               	FROM("account");
               	if(userId != null) {
                   WHERE("user_id = #{userId}");
                 }
-            }}%}.toString();
+            }}.toString();
         }
     }
 
 }
 ```
+{% endraw %}
 
 일반적인 SELECT문을 작성할 때는 getAccountList method와 같이 작성하면 되고, 경우에 따라 조건을 적용해야하면 getAccountById method와 같이 작성하면 된다.
 
 ### 2️⃣ 두 번째 (Insert)
 
+{% raw %}
 ```java
 @Mapper
 public interface AccountRepository {
@@ -67,17 +70,18 @@ public interface AccountRepository {
 
     class QueryBuilder {
         public String insertAccount(String id, String password, String name) {
-            return new SQL(){% {{
+            return new SQL() {{
                 INSERT_INTO("account");
                 VALUES("id", "#{id}");
                 VALUES("password", "#{password}");
                 VALUES("name", "#{name}");
-            }}%}.toString();
+            }}.toString();
         }
     }
 
 }
 ```
+{% endraw %}
 
 Select문과 마찬가지로 SQL을 작성하듯이 작성하면 된다. 동일하게 if문을 사용할 수 있다.
 
