@@ -34,20 +34,20 @@ public interface AccountRepository {
 
     class QueryBuilder {
         public String getAccountList() {
-            return new SQL() {{
+            return new SQL() {%{{
                 SELECT("*");
                 FROM("account");
-            }}.toString();
+            }}%}.toString();
         }
       
       	public String getAccountById(String userId) {
-          	return new SQL() {{
+          	return new SQL() {%{{
               	SELECT("*");
               	FROM("account");
               	if(userId != null) {
                   WHERE("user_id = #{userId}");
                 }
-            }}.toString();
+            }}%}.toString();
         }
     }
 
@@ -67,12 +67,12 @@ public interface AccountRepository {
 
     class QueryBuilder {
         public String insertAccount(String id, String password, String name) {
-            return new SQL() {{
+            return new SQL(){% {{
                 INSERT_INTO("account");
                 VALUES("id", "#{id}");
                 VALUES("password", "#{password}");
                 VALUES("name", "#{name}");
-            }}.toString();
+            }}%}.toString();
         }
     }
 
