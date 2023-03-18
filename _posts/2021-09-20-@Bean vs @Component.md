@@ -4,7 +4,7 @@ title: Bean vs Component
 date: '2021-09-20'
 description: '@Bean vs @Component'
 categories: [Backend, SpringBoot]
-tags: [Backend, SprintBoot, Bean, Component]
+tags: [Backend, SpringBoot, Bean, Component]
 ---
 # @Bean vs @Component
 
