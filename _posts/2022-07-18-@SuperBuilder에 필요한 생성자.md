@@ -3,7 +3,7 @@ layout: post
 title: \@SuperBuilder에 필요한 생성자
 date: '2022-07-18'
 description: '@SuperBuilder에 필요한 생성자'
-categories: ['Backend', 'ㅣLombok', 'Tips']
+categories: ['Backend', 'Lombok', 'Tips']
 tags: ['Backend', 'Lombok', 'Tips']
 ---
 # @SuperBuilder에 필요한 생성자
