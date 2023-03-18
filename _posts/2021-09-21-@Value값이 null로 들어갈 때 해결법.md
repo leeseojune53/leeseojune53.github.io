@@ -2,7 +2,7 @@
 layout: post
 title: @Value값이 null로 들어갈 때 해결법
 date: '2021-09-21'
-description: '@Value값이 null로 들어갈 때 해결법'
+description: '\@Value에 값이 null로 들어갈 때 해결법'
 categories: ['Backend', 'SpringBoot', 'Tips']
 tags: ['Backend', 'SpringBoot', 'Tips']
 ---
