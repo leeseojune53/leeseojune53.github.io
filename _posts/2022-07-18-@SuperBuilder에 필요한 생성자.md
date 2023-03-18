@@ -1,6 +1,6 @@
 ---
 layout: post
-title: @SuperBuilder에 필요한 생성자
+title: \@SuperBuilder에 필요한 생성자
 date: '2022-07-18'
 description: '@SuperBuilder에 필요한 생성자'
 categories: ['Backend', 'ㅣLombok', 'Tips']
