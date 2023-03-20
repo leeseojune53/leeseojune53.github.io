@@ -1,6 +1,6 @@
 ---
 layout: post
-title: \@PrimaryKeyJoinColumn이란
+title: ! '@PrimaryKeyJoinColumn이란'
 date: '2021-12-08'
 description: '@PrimaryKeyJoinColumn이란?'
 categories: ['Backend', 'SpringBoot', 'JPA', 'Tips']
