@@ -1,6 +1,6 @@
 ---
 layout: post
-title: \@Transactional의 종류
+title: ! '@Transactional의 종류'
 date: '2021-12-22'
 description: '@Transactional의 종류'
 categories: ['Backend', 'SpringBoot', 'Tips']
