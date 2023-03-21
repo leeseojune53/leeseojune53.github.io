@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bean vs Component
+title: ! '@Bean vs @Component'
 date: '2021-09-20'
 description: '@Bean vs @Component'
 categories: [Backend, SpringBoot]
