@@ -36,13 +36,13 @@ BatchUpdate는 JDBC에서 제공하는 Batch query를 날리는 method이다.
 
 아래 순서대로 10, 100, 1000, 10000개 입력이다.
 
-<img src="https://github.com/leeseojune53/yatudy/blob/main/images/research/10row.png?raw=true">
+<img src="https://raw.githubusercontent.com/leeseojune53/yatudy/main/images/research/10row.png?raw=true">
 
-<img src="https://github.com/leeseojune53/yatudy/blob/main/images/research/100row.png?raw=true">
+<img src="https://raw.githubusercontent.com/leeseojune53/yatudy/main/images/research/100row.png?raw=true">
 
-<img src="https://github.com/leeseojune53/yatudy/blob/main/images/research/1000row.png?raw=true">
+<img src="https://raw.githubusercontent.com/leeseojune53/yatudy/main/images/research/1000row.png?raw=true">
 
-<img src="https://github.com/leeseojune53/yatudy/blob/main/images/research/10000row.png?raw=true">
+<img src="https://raw.githubusercontent.com/leeseojune53/yatudy/main/images/research/10000row.png?raw=true">
 
 
 

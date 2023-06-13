@@ -18,7 +18,7 @@ SuperBuilder을 사용할 때 @AllArgsConstructor를 같이 사용하는 예시�
 
 우선 handle이라는 거대한 method의 중간에
 
-![SuperBuilder](https://github.com/leeseojune53/yatudy/blob/main/images/SuperBuilder.png)
+![SuperBuilder](https://github.com/leeseojune53/yatudy/blob/main/images/SuperBuilder.png?raw=true)
 
 이 부분이 존재한다.
 

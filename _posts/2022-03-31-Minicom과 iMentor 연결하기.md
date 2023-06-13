@@ -39,10 +39,10 @@ iMentor과 컴퓨터를 시리얼 연결한다. LAN도 연결해준다.
 
 VMWare의 Network Adapter를 Bridged로 변경해준다.
 
-![VMWare Network Setting.png](https://github.com/leeseojune53/yatudy/blob/main/images/embedded/VMWare%20Network%20Setting.png)
+![VMWare Network Setting.png](https://raw.githubusercontent.com/leeseojune53/yatudy/main/images/embedded/VMWare%20Network%20Setting.png?raw=true)
 
 VMWare 내부에서 돌아가고있는 Ubuntu의 네트워크를 아래와 같이 설정해준다.
 
-![Ubuntu Network Setting.png](https://github.com/leeseojune53/yatudy/blob/main/images/embedded/Ubuntu%20Network%20Setting.png)
+![Ubuntu Network Setting.png](https://raw.githubusercontent.com/leeseojune53/yatudy/main/images/embedded/Ubuntu%20Network%20Setting.png?raw=true)
 
 minicom에서 `ifconfig eth0 192.168.0.2`를 하고, Ubuntu의 Terminal에서 `ping 192.168.0.2`를 실행한다.
